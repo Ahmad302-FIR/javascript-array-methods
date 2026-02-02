@@ -9,8 +9,8 @@ for (let i = 0; i < numbers.length; i++) {
 console.log(multipliedNumbers); 
 
 // ----task-2----//
-const numbers = [12, 5, 8, 130, 44];
-const filteredNumbers = numbers.filter(num => num > 10);
+const numbers2 = [12, 5, 8, 130, 44];
+const filteredNumbers = numbers2.filter(num => num > 10);
 console.log(filteredNumbers);
 
 // ----task-3----//
@@ -21,23 +21,23 @@ fruits.forEach(fruit => console.log(`Fruit: ${fruit}`));
 const users = [
   { name: "Ali", age: 22 },
   { name: "Sara", age: 18 },
-  { name: "Ahmed", age: 25 }0
+  { name: "Ahmed", age: 25 },
 ];
 
 const names = users.map(user => user.name);
 console.log(names);
 
 // ----task-5----//
-const users = [
+const users2 = [
   { name: "Ali", age: 17 },
   { name: "Sara", age: 18 },
   { name: "Ahmed", age: 25 }
 ];
 
 const adults = [];
-for (let i = 0; i < users.length; i++) {
-  if (users[i].age >= 18) {
-    adults.push(users[i]);
+for (let i = 0; i < users2.length; i++) {
+  if (users2[i].age >= 18) {
+    adults.push(users2[i]);
   }
 }
 console.log(adults);
